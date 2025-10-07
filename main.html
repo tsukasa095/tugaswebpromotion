@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinasi Wisata Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Destinasi Wisata Indonesia</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="home">
+                <h2>Selamat Datang</h2>
+                <p>Jelajahi keindahan alam dan budaya Indonesia yang menakjubkan. Temukan tempat wisata terbaik dari Sabang sampai Merauke dan ciptakan pengalaman tak terlupakan di setiap langkah perjalanan Anda.</p>
+            </section>
+
+            <section id="about">
+                <h2>Tentang Kami</h2>
+                <p><strong>Wisata Indonesia</strong> adalah platform informasi pariwisata yang berkomitmen memperkenalkan keindahan alam, budaya, dan kuliner Nusantara kepada seluruh dunia. Kami percaya bahwa setiap sudut negeri ini memiliki keajaiban yang layak untuk dieksplorasi.</p>
+            </section>
+
+            <section id="gallery">
+                <h2>Destinasi Unggulan</h2>
+                <div class="gallery">
+                    <div class="card">
+                        <img src="rajaampart.jpg" alt="Raja Ampat">
+                        <h3>Raja Ampat, Papua Barat</h3>
+                        <p>Surga bawah laut yang memukau, dengan air sebening kristal dan keanekaragaman biota laut yang luar biasa.</p>
+                    </div>
+                    <div class="card">
+                        <img src="bromo.jpg" alt="Gunung Bromo">
+                        <h3>Gunung Bromo, Jawa Timur</h3>
+                        <p>Panorama sunrise yang legendaris, dikelilingi lautan pasir dan keindahan alam yang menawan.</p>
+                    </div>
+                    <div class="card">
+                        <img src="tanahlotbali.jpg" alt="Tanah Lot">
+                        <h3>Tanah Lot, Bali</h3>
+                        <p>Ikon wisata Bali dengan pura megah di atas batu karang, tempat terbaik menikmati matahari terbenam.</p>
+                    </div>
+                </div>
+
+                                <div class="video-section">
+                    <h2>Video Keindahan Indonesia</h2>
+
+                    <div class="video-wrapper">
+                        <video id="promoVideo" autoplay muted loop playsinline>
+                            <source src="keindahanwisataindo2 (1).mp4" type="video/mp4">
+                            Browser Anda tidak mendukung pemutar video.
+                        </video>
+                    </div>
+                </div>
+                </section>
+
+            <section id="kontak">
+                <h2>Hubungi Kami</h2>
+                <p>Jika Anda ingin mendapatkan informasi lebih lanjut atau memesan paket wisata, silakan hubungi kami melalui form di bawah atau langsung lewat nomor berikut:</p>
+
+                <div class="contact-info">
+                    <p><strong>📞 Nomor Telepon:</strong> <a href="tel:+6285717824070">+62 857-1782-4070</a></p>
+                    <p><strong>💬 WhatsApp:</strong> <a href="https://wa.me/6285717824070" target="_blank">Chat via WhatsApp</a></p>
+                </div>
+
+                <form id="contactForm">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" rows="4" required></textarea>
+
+                    <button type="submit">Kirim</button>
+                </form>
+                <p id="formMessage"></p>
+            </section>
+        </main>
+    </div>
+
+    
+<div class="music-player" id="musicPlayer">
+    <button id="playBtn">⏸️</button>
+    <audio id="bgMusic" autoplay loop muted>
+        <source src="musicwisata.mp3" type="audio/mp3">
+        Browser Anda tidak mendukung audio.
+    </audio>
+    <span id="musicStatus">(Muted)</span>
+</div>
+
+    <footer>
+        <p>&copy; 2025 Wisata Indonesia | Jelajahi Keindahan Nusantara</p>
+        <p>Hubungi kami: <a href="tel:+6285717824070" class="footer-phone">+62 857-1782-4070</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
